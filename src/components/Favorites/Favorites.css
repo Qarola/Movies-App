@@ -64,3 +64,10 @@
     background-color: white;
     cursor: pointer;
   }
+  .page-footer2 {
+    text-align:center;
+    font-size: 1rem;
+    color: whitesmoke;
+    margin-top: 245px;
+
+  }

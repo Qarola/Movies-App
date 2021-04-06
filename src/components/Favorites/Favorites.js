@@ -6,7 +6,7 @@ import './Favorites.css';
 
 export class ConnectedList extends Component {
 
-  render() {
+  render() { 
     return (
       <div className="App">
         <div className='title'>
@@ -29,6 +29,7 @@ export class ConnectedList extends Component {
          </div>)}
           )}
         </ul>
+        <div className="page-footer2">Made with <span>❤</span> by Carolina Altamiranda N.</div>
       </div>
     );
   }

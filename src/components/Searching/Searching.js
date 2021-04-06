@@ -59,6 +59,7 @@ export class Searching extends Component {
           </button>
          </div>) : null}
          </div>
+         <div className="page-footer">Made with <span>❤</span> by Carolina Altamiranda N.</div>
       </div>
     );
   }
