@@ -1,6 +1,17 @@
 .App {
   text-align: center;
+  background-image: url('./img/chair-red.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+ 
+
+  height: 100vmax;
+  width: 100%;
 }
+ 
+
 
 .App-logo {
   height: 40vmin;

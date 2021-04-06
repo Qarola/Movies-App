@@ -1,0 +1,66 @@
+.App {
+  
+    background-image: url('../../img/chairs-red.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+   
+  
+    height: 100vmax;
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font: 18px/22px "Lato", Arial, sans-serif;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top:75px;
+   
+}
+  
+  
+.list-ctn {
+    margin: 0 auto;
+    width: 70%;
+    background: #4d4d4d;
+    opacity: 0.7;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+ 
+
+
+  .movies-list {
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+  }
+  
+  .movie-link {
+      font: 18px/22px "Lato", Arial, sans-serif;
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+  }
+
+  .delete-btn {
+    background-color: rgb(59,0,18);
+    color: white;
+  }
+
+  .delete-btn:hover {
+    color: rgb(110, 110, 110);
+    background-color: white;
+    cursor: pointer;
+  }
